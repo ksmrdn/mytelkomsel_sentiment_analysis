@@ -60,11 +60,11 @@ Model v1 (`01_v1_lexicon.ipynb`) dilatih dan diuji dengan label dari lexicon:
 
 ² Reproduksi pipeline v1 pada 15.000 ulasan terbaru (30 Sep 2026) di audit terpisah.
 
-### 2. Gold set: manusia sebagai hakim
+### 2. Gold set: label manusia sebagai acuan
 
 Melabeli 500 ulasan sepenuhnya manual itu berat. Karena itu dipakai pelabelan **berbantuan LLM yang dikalibrasi**:
 
-1. **98 ulasan dilabeli buta oleh manusia**, tanpa rating dan tanpa label LLM.
+1. **98 ulasan dilabeli manusia secara independen**, tanpa melihat rating maupun label LLM.
 2. **Label LLM dibandingkan dengan label manusia.** Pada 50 sampel acak, kesepakatannya 98% (κ = 0,90).
 3. **400 ulasan lain dipra-label LLM.** Manusia memeriksa 58 baris yang ragu dan 50 baris audit acak. Di baris audit,
    koreksinya 0 dari 50.
