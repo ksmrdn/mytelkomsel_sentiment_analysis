@@ -1,0 +1,2 @@
+{"data_hash": "acd97ef165f28de1", "n_train": 7511, "n_val": 1326, "n_gold_val": 248, "n_gold_test": 248, "drop_noisy_positives": true, "seed": 42, "gold_hash": "42d0cc3823452ecb", "train_hash": "2a71b84b83c6b055", "versi": "filter B (NEG_HINTS diperluas), 2026-10-27"}
+{"data_hash": "f5f396d397d46bc6", "gold_hash": "42d0cc3823452ecb", "train_hash": "7553b8add5d0fd32", "versi": "C: NEG_HINTS diperluas + campuran bintang 4-5 (kontras + keluhan) dibuang", "n_train": 7474, "n_val": 1320, "n_gold_val": 248, "n_gold_test": 248, "drop_noisy_positives": true, "seed": 42}

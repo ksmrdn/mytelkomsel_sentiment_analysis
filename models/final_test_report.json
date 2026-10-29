@@ -1,0 +1,212 @@
+[
+  {
+    "name": "GOLD_TEST baseline (semua baris)",
+    "n": 248,
+    "accuracy": 0.9475806451612904,
+    "macro_f1": 0.8978939034045923,
+    "per_class": {
+      "negative": {
+        "precision": 0.9760765550239234,
+        "recall": 0.9622641509433962,
+        "f1-score": 0.9691211401425178,
+        "support": 212.0
+      },
+      "positive": {
+        "precision": 0.7948717948717948,
+        "recall": 0.8611111111111112,
+        "f1-score": 0.8266666666666667,
+        "support": 36.0
+      },
+      "accuracy": 0.9475806451612904,
+      "macro avg": {
+        "precision": 0.8854741749478592,
+        "recall": 0.9116876310272537,
+        "f1-score": 0.8978939034045923,
+        "support": 248.0
+      },
+      "weighted avg": {
+        "precision": 0.9497726382276467,
+        "recall": 0.9475806451612904,
+        "f1-score": 0.9484422649605394,
+        "support": 248.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        204,
+        8
+      ],
+      [
+        5,
+        31
+      ]
+    ],
+    "slices": {
+      "sarkasme": {
+        "n": 10,
+        "accuracy": 0.8,
+        "macro_f1": 0.4444444444444444
+      },
+      "conflict_flag": {
+        "n": 116,
+        "accuracy": 0.9396551724137931,
+        "macro_f1": 0.7147874956094133
+      }
+    }
+  },
+  {
+    "name": "GOLD_TEST baseline (hanya dilihat manusia)",
+    "n": 135,
+    "accuracy": 0.9111111111111111,
+    "macro_f1": 0.8527272727272728,
+    "per_class": {
+      "negative": {
+        "precision": 0.9541284403669725,
+        "recall": 0.9369369369369369,
+        "f1-score": 0.9454545454545454,
+        "support": 111.0
+      },
+      "positive": {
+        "precision": 0.7307692307692307,
+        "recall": 0.7916666666666666,
+        "f1-score": 0.76,
+        "support": 24.0
+      },
+      "accuracy": 0.9111111111111111,
+      "macro avg": {
+        "precision": 0.8424488355681017,
+        "recall": 0.8643018018018018,
+        "f1-score": 0.8527272727272728,
+        "support": 135.0
+      },
+      "weighted avg": {
+        "precision": 0.914420136438485,
+        "recall": 0.9111111111111111,
+        "f1-score": 0.9124848484848485,
+        "support": 135.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        104,
+        7
+      ],
+      [
+        5,
+        19
+      ]
+    ],
+    "slices": {
+      "sarkasme": {
+        "n": 10,
+        "accuracy": 0.8,
+        "macro_f1": 0.4444444444444444
+      }
+    }
+  },
+  {
+    "name": "GOLD_TEST IndoBERT (semua baris)",
+    "n": 248,
+    "accuracy": 0.9435483870967742,
+    "macro_f1": 0.8935099987731567,
+    "per_class": {
+      "negative": {
+        "precision": 0.9805825242718447,
+        "recall": 0.9528301886792453,
+        "f1-score": 0.9665071770334929,
+        "support": 212.0
+      },
+      "positive": {
+        "precision": 0.7619047619047619,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.8205128205128205,
+        "support": 36.0
+      },
+      "accuracy": 0.9435483870967742,
+      "macro avg": {
+        "precision": 0.8712436430883033,
+        "recall": 0.920859538784067,
+        "f1-score": 0.8935099987731567,
+        "support": 248.0
+      },
+      "weighted avg": {
+        "precision": 0.9488389781217842,
+        "recall": 0.9435483870967742,
+        "f1-score": 0.9453144478611372,
+        "support": 248.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        202,
+        10
+      ],
+      [
+        4,
+        32
+      ]
+    ],
+    "slices": {
+      "sarkasme": {
+        "n": 10,
+        "accuracy": 0.8,
+        "macro_f1": 0.4444444444444444
+      },
+      "conflict_flag": {
+        "n": 116,
+        "accuracy": 0.9396551724137931,
+        "macro_f1": 0.7147874956094133
+      }
+    }
+  },
+  {
+    "name": "GOLD_TEST IndoBERT (hanya dilihat manusia)",
+    "n": 135,
+    "accuracy": 0.9037037037037037,
+    "macro_f1": 0.8474045735153466,
+    "per_class": {
+      "negative": {
+        "precision": 0.9622641509433962,
+        "recall": 0.918918918918919,
+        "f1-score": 0.9400921658986175,
+        "support": 111.0
+      },
+      "positive": {
+        "precision": 0.6896551724137931,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.7547169811320755,
+        "support": 24.0
+      },
+      "accuracy": 0.9037037037037037,
+      "macro avg": {
+        "precision": 0.8259596616785947,
+        "recall": 0.8761261261261262,
+        "f1-score": 0.8474045735153466,
+        "support": 135.0
+      },
+      "weighted avg": {
+        "precision": 0.9138003325381335,
+        "recall": 0.9037037037037037,
+        "f1-score": 0.9071365774956767,
+        "support": 135.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        102,
+        9
+      ],
+      [
+        4,
+        20
+      ]
+    ],
+    "slices": {
+      "sarkasme": {
+        "n": 10,
+        "accuracy": 0.8,
+        "macro_f1": 0.4444444444444444
+      }
+    }
+  }
+]

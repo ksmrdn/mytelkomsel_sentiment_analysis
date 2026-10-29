@@ -1,0 +1,29 @@
+# Data mentah hasil scraping (besar; ambil ulang lewat RUN_SCRAPE di notebook 02)
+data/reviews_raw.csv
+
+# Ekspor untuk Colab: dibuat ulang otomatis oleh notebook 02 (bagian 7)
+data/bert_data.zip
+data/bert/train.csv
+data/bert/val.csv
+
+# Keluaran notebook 01 (v1) bila dijalankan ulang: scraping baru + model SVM/LR/ensemble
+ulasan_aplikasi_mytsel.csv
+models/*.pkl
+scheme_comparison.png
+confusion_matrices.png
+
+# Draf pribadi (tidak untuk repo)
+LINKEDIN_POST.md
+
+# Backup kerja lokal
+*.backup_*
+
+# Secret (jika nanti dipakai API)
+.env
+.env.*
+
+# Python / Jupyter / OS
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store

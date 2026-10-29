@@ -1,0 +1,9 @@
+{
+ "dibuat": "2026-10-27",
+ "n": 116,
+ "dari_gold": 496,
+ "kriteria": "ada kata pujian (tidak didahului negasi) DAN (kata kontras ATAU kata keluhan NEG_HINTS)",
+ "pujian": "\\b(bagus|bgus|bgs|mantap|mantab|mantul|keren|hebat|terbaik|lancar|puas|baik|lumayan|membantu|suka|cinta|senang|best|good|nyaman|mudah|recommended|stabil|kencang|kenceng)\\b",
+ "kontras": "\\b(?:tapi|tp|tpi|tetapi|namun|walaupun|walau|meskipun|cuma|hanya|sayang|sayangnya|padahal|sedangkan)\\b",
+ "catatan": "dipilih hanya dari teks; label lama, rating, split, dan prediksi model tidak dipakai"
+}

@@ -1,0 +1,14 @@
+reviewId,content,label,pred,proba_pos,sarcasm,score,source
+a2598a73-9392-4595-91bb-8a6c24d85ed8,Apk my Telkomsel yg lama lebih baik dari yang sekarang. Kl sdh diperbaiki auto tambah bintang,negative,positive,0.6024386501558829,0,3,human_relabel
+cebedefd-b938-427d-bc32-5d0fdac1989f,saya top up 105.000 tapi kok cuma 85.000 kemana pulsa saya dasar MARUK,negative,positive,0.7152442828197798,0,1,human_checked
+67f82b4b-5ed3-40e5-bc86-d253f93cce9e,setelah dari 30mbps dapat promo upgrade ke 200mbps kok tetap kluwer-kluwer saja....,negative,positive,0.751771190013978,0,2,claude_unchecked
+763beb47-fdfa-41b6-8769-2a74082ba006,low respon.,negative,positive,0.7588220246928387,0,1,human_checked
+8acaca83-6618-4b33-8c41-8b0d7a5e6798,sangat mudah dalam pembelian Kouta lancar dan tidak lemot sangat mudah di gunakan,negative,positive,0.7628137887985057,0,5,human_relabel
+b4ab48c0-5265-4b41-a66c-ec7e3aed6f1d,"jaringannya sangat bagus,saya sering mengeluarkan kata"" mutiara gara"" sinyal nya E,sehingga saya sering istigfar,ini jaringan sangat bagus beri A+",negative,positive,0.7659464703077613,1,1,human_blind
+46401b5d-786d-497d-834a-59e37633cbfc,"Sekarang untuk membuka Aplikasi My Telkomsel butuh kesabaran yang extra, mohon pihak provider Aplikasinya agar mudah digunakan biar pelanggan jadi lebih nyaman..",negative,positive,0.7775941612040761,0,1,claude_unchecked
+e4e9c2fb-cf04-4c9d-a6de-24c4ba83346c,"paket cepat habis, signal kadang lemah. thanks 🙏😇🙏",negative,positive,0.8516578526587307,0,4,human_checked
+2e96ac14-1534-4b02-95d3-c504a32bb9cb,sekarg telkomsel palung cepat habis paket data,negative,positive,0.8602790683551994,0,4,claude_unchecked
+90deec6d-7e3e-4511-8ae5-33befbb5509e,pas,positive,negative,0.25239491714547735,1,2,human_blind
+60fe6f1a-dccd-4162-84e8-108fc36c08ec,aku cinta Telkomsel sampai mati,positive,negative,0.4190776611842031,0,4,human_checked
+c8c07369-0f5e-453f-b658-9f31ae855e35,"Kami mengusulkan agar Telkomsel menghadirkan kembali paket dengan spesifikasi sebagai berikut: Harga: Rp50.000 / 30 hari Fitur utama: Unlimited aPromo di My Telkomsel & by.U boleh berubah tiap bulan Biar gak membosankan, ada pilihan baru tiap bulan. Asal: ✅ Harga tetap terjangkau, gak naik ✅ Kuota tetap banyak, gak berkurang ✅ Kalau dihapus kasih kabar dulu Promo di My Telkomsel & by.U boleh berubah tiap bulan Biar gak membosankan, ada pilihan baru tiap bulan. Asal: ✅ Harga tetap terjangkau,",positive,negative,0.45239290455322767,0,2,human_checked
+83043779-4dc6-4138-a6fd-6ae4f387d5a2,"terimakasih sudah memperbaikinya, sekarang tidak perlu waktu lama untuk mengaksesnya, 👍👍👍👍 tapi nanti kalau mulai lemot lagi aku rubah ulasannya,🫡",positive,negative,0.5133828058723102,0,4,human_blind

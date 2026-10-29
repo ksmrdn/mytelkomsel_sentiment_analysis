@@ -1,0 +1,162 @@
+[
+  {
+    "name": "config",
+    "threshold": 0.6,
+    "filter_version": "C: NEG_HINTS diperluas + campuran bintang 4-5 (kontras + keluhan) dibuang"
+  },
+  {
+    "name": "VAL (label rating) - hanya referensi",
+    "n": 1320,
+    "accuracy": 0.9424242424242424,
+    "macro_f1": 0.8915675152185943,
+    "per_class": {
+      "negative": {
+        "precision": 0.9615040286481648,
+        "recall": 0.9701897018970189,
+        "f1-score": 0.9658273381294964,
+        "support": 1107.0
+      },
+      "positive": {
+        "precision": 0.8374384236453202,
+        "recall": 0.7981220657276995,
+        "f1-score": 0.8173076923076923,
+        "support": 213.0
+      },
+      "accuracy": 0.9424242424242424,
+      "macro avg": {
+        "precision": 0.8994712261467425,
+        "recall": 0.8841558838123592,
+        "f1-score": 0.8915675152185943,
+        "support": 1320.0
+      },
+      "weighted avg": {
+        "precision": 0.9414843514772511,
+        "recall": 0.9424242424242424,
+        "f1-score": 0.9418616680082506,
+        "support": 1320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1074,
+        33
+      ],
+      [
+        43,
+        170
+      ]
+    ],
+    "slices": {
+      "conflict_flag": {
+        "n": 72,
+        "accuracy": 0.9583333333333334,
+        "macro_f1": 0.9787234042553191
+      }
+    }
+  },
+  {
+    "name": "GOLD_VAL baseline (semua baris)",
+    "n": 248,
+    "accuracy": 0.9475806451612904,
+    "macro_f1": 0.8931565865782933,
+    "per_class": {
+      "negative": {
+        "precision": 0.9809523809523809,
+        "recall": 0.958139534883721,
+        "f1-score": 0.9694117647058823,
+        "support": 215.0
+      },
+      "positive": {
+        "precision": 0.7631578947368421,
+        "recall": 0.8787878787878788,
+        "f1-score": 0.8169014084507042,
+        "support": 33.0
+      },
+      "accuracy": 0.9475806451612904,
+      "macro avg": {
+        "precision": 0.8720551378446115,
+        "recall": 0.9184637068357999,
+        "f1-score": 0.8931565865782933,
+        "support": 248.0
+      },
+      "weighted avg": {
+        "precision": 0.951971663028539,
+        "recall": 0.9475806451612904,
+        "f1-score": 0.9491180479461208,
+        "support": 248.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        206,
+        9
+      ],
+      [
+        4,
+        29
+      ]
+    ],
+    "slices": {
+      "sarkasme": {
+        "n": 12,
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.45454545454545453
+      },
+      "conflict_flag": {
+        "n": 120,
+        "accuracy": 0.975,
+        "macro_f1": 0.6936170212765957
+      }
+    }
+  },
+  {
+    "name": "GOLD_VAL baseline (hanya dilihat manusia)",
+    "n": 145,
+    "accuracy": 0.9310344827586207,
+    "macro_f1": 0.8660384331116038,
+    "per_class": {
+      "negative": {
+        "precision": 0.9672131147540983,
+        "recall": 0.9516129032258065,
+        "f1-score": 0.959349593495935,
+        "support": 124.0
+      },
+      "positive": {
+        "precision": 0.7391304347826086,
+        "recall": 0.8095238095238095,
+        "f1-score": 0.7727272727272727,
+        "support": 21.0
+      },
+      "accuracy": 0.9310344827586207,
+      "macro avg": {
+        "precision": 0.8531717747683535,
+        "recall": 0.880568356374808,
+        "f1-score": 0.8660384331116038,
+        "support": 145.0
+      },
+      "weighted avg": {
+        "precision": 0.9341804507582275,
+        "recall": 0.9310344827586207,
+        "f1-score": 0.9323215332466804,
+        "support": 145.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        118,
+        6
+      ],
+      [
+        4,
+        17
+      ]
+    ],
+    "slices": {
+      "sarkasme": {
+        "n": 12,
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.45454545454545453
+      }
+    }
+  }
+]

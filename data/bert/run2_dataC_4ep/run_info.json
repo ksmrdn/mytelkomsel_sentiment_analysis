@@ -1,0 +1,69 @@
+{
+  "model_name": "indobenchmark/indobert-base-p1",
+  "model_version": "indobert-v2-20261027",
+  "transformers": "5.21.0",
+  "torch": "2.11.0+cu130",
+  "device": "Tesla T4",
+  "epochs_max": 4,
+  "best_epoch": 4.0,
+  "val_rating_macro_f1_best": 0.9029814609850582,
+  "lr": 2e-05,
+  "batch": 32,
+  "max_len": 128,
+  "seed": 42,
+  "n_train": 7474,
+  "n_val": 1320,
+  "train_minutes": 5.25,
+  "latency_100_sec": 0.162,
+  "smoke_test": false,
+  "data_manifest": {
+    "data_hash": "f5f396d397d46bc6",
+    "gold_hash": "42d0cc3823452ecb",
+    "train_hash": "7553b8add5d0fd32",
+    "versi": "C: NEG_HINTS diperluas + campuran bintang 4-5 (kontras + keluhan) dibuang",
+    "n_train": 7474,
+    "n_val": 1320,
+    "n_gold_val": 248,
+    "n_gold_test": 248,
+    "drop_noisy_positives": true,
+    "seed": 42
+  },
+  "eval_history": [
+    {
+      "eval_loss": 0.2484157681465149,
+      "eval_macro_f1": 0.8787537435235906,
+      "eval_runtime": 1.6515,
+      "eval_samples_per_second": 799.281,
+      "eval_steps_per_second": 12.716,
+      "epoch": 1.0,
+      "step": 234
+    },
+    {
+      "eval_loss": 0.27561551332473755,
+      "eval_macro_f1": 0.8859476762093155,
+      "eval_runtime": 1.8241,
+      "eval_samples_per_second": 723.641,
+      "eval_steps_per_second": 11.512,
+      "epoch": 2.0,
+      "step": 468
+    },
+    {
+      "eval_loss": 0.3661617934703827,
+      "eval_macro_f1": 0.8928462709284627,
+      "eval_runtime": 2.1012,
+      "eval_samples_per_second": 628.221,
+      "eval_steps_per_second": 9.994,
+      "epoch": 3.0,
+      "step": 702
+    },
+    {
+      "eval_loss": 0.48498809337615967,
+      "eval_macro_f1": 0.9029814609850582,
+      "eval_runtime": 2.1189,
+      "eval_samples_per_second": 622.953,
+      "eval_steps_per_second": 9.911,
+      "epoch": 4.0,
+      "step": 936
+    }
+  ]
+}

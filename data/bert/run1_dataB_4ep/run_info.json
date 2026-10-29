@@ -1,0 +1,66 @@
+{
+  "model_name": "indobenchmark/indobert-base-p1",
+  "model_version": "indobert-v2-20261027",
+  "transformers": "5.21.0",
+  "torch": "2.11.0+cu130",
+  "device": "Tesla T4",
+  "epochs_max": 4,
+  "best_epoch": 4.0,
+  "val_rating_macro_f1_best": 0.902015659426723,
+  "lr": 2e-05,
+  "batch": 32,
+  "max_len": 128,
+  "seed": 42,
+  "n_train": 7511,
+  "n_val": 1326,
+  "train_minutes": 6.09,
+  "latency_100_sec": 0.144,
+  "smoke_test": false,
+  "data_manifest": {
+    "data_hash": "acd97ef165f28de1",
+    "n_train": 7511,
+    "n_val": 1326,
+    "n_gold_val": 248,
+    "n_gold_test": 248,
+    "drop_noisy_positives": true,
+    "seed": 42
+  },
+  "eval_history": [
+    {
+      "eval_loss": 0.24538034200668335,
+      "eval_macro_f1": 0.8761588545637522,
+      "eval_runtime": 1.7494,
+      "eval_samples_per_second": 757.978,
+      "eval_steps_per_second": 12.004,
+      "epoch": 1.0,
+      "step": 235
+    },
+    {
+      "eval_loss": 0.28490686416625977,
+      "eval_macro_f1": 0.8976332646084897,
+      "eval_runtime": 1.6434,
+      "eval_samples_per_second": 806.887,
+      "eval_steps_per_second": 12.779,
+      "epoch": 2.0,
+      "step": 470
+    },
+    {
+      "eval_loss": 0.3643794059753418,
+      "eval_macro_f1": 0.8992555371570532,
+      "eval_runtime": 1.6737,
+      "eval_samples_per_second": 792.279,
+      "eval_steps_per_second": 12.547,
+      "epoch": 3.0,
+      "step": 705
+    },
+    {
+      "eval_loss": 0.4401225745677948,
+      "eval_macro_f1": 0.902015659426723,
+      "eval_runtime": 1.6855,
+      "eval_samples_per_second": 786.691,
+      "eval_steps_per_second": 12.459,
+      "epoch": 4.0,
+      "step": 940
+    }
+  ]
+}
